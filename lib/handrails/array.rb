@@ -3,7 +3,7 @@ class Array
 		inject(start, &:+)
 	end
 
-	def odd_and_even_numbers
-		odd, even = self.partition {|i| i.odd? }
+	def odd_and_even
+		odd, even = self.partition {|n| n.odd?}
 	end
 end
